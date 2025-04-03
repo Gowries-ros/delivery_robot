@@ -68,6 +68,9 @@ class SimpleFoodDeliveryRobot:
 
     def process_order(self, tables):
         for table in tables:
+            if self.cancel_task:
+                self.cancel_and_return()
+                return
             rospy.loginfo("Going to the kitchen to collect food...")
             self.move_to_goal(self.kitchen_position[0], self.kitchen_position[1])
             rospy.loginfo("Received food from kitchen.")
