@@ -1,0 +1,2 @@
+kitchrobo_pkg:myrobot_description:navigation
+-DCATKIN_DEVEL_PREFIX=/home/gowrieswar/demo_ws/devel -DCMAKE_INSTALL_PREFIX=/home/gowrieswar/demo_ws/install -G Unix Makefiles

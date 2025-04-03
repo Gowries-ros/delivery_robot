@@ -1,0 +1,8 @@
+prefix=/home/gowrieswar/demo_ws/install
+
+Name: kitchrobo_pkg
+Description: Description of kitchrobo_pkg
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
